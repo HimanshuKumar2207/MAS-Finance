@@ -1,7 +1,7 @@
 import React from "react";
 import { IoArrowRedoCircleSharp } from "react-icons/io5";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom"; // 
+import { Link } from "react-router-dom"; //
 
 const services = [
   {
@@ -24,7 +24,7 @@ const services = [
     title: "Mutual Funds",
     description:
       "Investing in mutual funds offers a smart way to build wealth over time with the help of professional management. Our mutual fund services are designed to diversify your investments across various asset classes, reducing risk while maximizing returns. We assess your financial goals and risk tolerance to create a customized investment portfolio that ensures you're on track for a stable and prosperous future.",
-    link: "/services/mutualfunds", 
+    link: "/services/mutualfunds",
 
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
@@ -32,7 +32,7 @@ const services = [
     title: "Auto-mobile Insurance",
     description:
       "Auto insurance is essential to protect your vehicle, and more importantly, yourself and others on the road. Our automobile insurance services offer a variety of coverage options, including collision, comprehensive, and liability, ensuring you're protected against accidents, theft, and unforeseen events. We work with you to select a policy that suits your driving habits and provides the best coverage for your needs at a competitive rate",
-    link: "/services/automobileinsurance", 
+    link: "/services/automobileinsurance",
 
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
@@ -48,7 +48,7 @@ const services = [
 
 const WeOffer = () => {
   return (
-    <div className="py-20 bg-gray-100 font-montserrat">
+    <div className="py-20 lg:py-14 lg:mt-0bg-gradient-to-r from-gray-100 to-gray-200  font-montserrat">
       {/* Heading */}
       <div className="text-center mb-16">
         <motion.h1

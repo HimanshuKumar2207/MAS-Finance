@@ -15,7 +15,7 @@ const ConnectBtn = () => {
       </div>
       <div>
         <Link to="/contact">
-          <button className="text-white text-lg font-semibold bg-red-700 py-3 px-16 sm:px-14 md:px-16 lg:px-14 rounded-md hover:bg-red-800 transition-all duration-200">
+          <button className="text-white text-lg font-semibold bg-gradient-to-r from-red-600 to-red-800 py-3 px-16 sm:px-14 md:px-16 lg:px-14 rounded-md ">
             Contact Us
           </button>
         </Link>

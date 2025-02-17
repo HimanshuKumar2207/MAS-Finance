@@ -20,7 +20,7 @@ const ServicesList = ({ serData }) => {
         img={img}
       />
 
-      <div className="container mx-auto p-6 max-w-full mt-20">
+      <div className="container mx-auto p-6 max-w-full mt-20 overflow-hidden">
         {/* Main Service Overview Card */}
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -31,9 +31,7 @@ const ServicesList = ({ serData }) => {
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">
             {serData.serviceName}
           </h2>
-          <p className="text-gray-200 text-sm sm:text-lg">
-            {serData.overview}
-          </p>
+          <p className="text-gray-200 text-sm sm:text-lg">{serData.overview}</p>
         </motion.div>
 
         <div

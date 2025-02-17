@@ -9,11 +9,11 @@ const HBanner = ({ heading, desc, img, children }) => {
         src={img}
         alt="home_banner"
         loading="lazy"
-        className="w-full h-[420px] sm:h-[500px] md:h-[600px] lg:h-[850px] object-cover"
+        className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[850px] object-cover"
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute top-0 left-0 w-full h-[420px] sm:h-[500px] md:h-[600px] lg:h-[850px] bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
+      <div className="absolute top-0 left-0 w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[850px] bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
 
       {/* Content */}
       <div className="absolute top-0 left-0 w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[850px] flex flex-col justify-center items-center">

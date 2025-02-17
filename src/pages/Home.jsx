@@ -30,7 +30,7 @@ const Home = () => {
       <MoreServices />
       <Kotak />
       <ServiceBtn />
-      {/* <Form /> */}
+      <Form />
       <FAQ />
       <Footer />
       <FixedBottom />

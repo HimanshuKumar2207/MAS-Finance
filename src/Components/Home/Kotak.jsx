@@ -4,7 +4,7 @@ import kotakCardImage from "../../assets/kotakHbanner.jpg";
 
 const Kotak = () => {
   return (
-    <div className="bg-gray-50 py-12 ">
+    <div className="bg-gray-100 py-16 mt-[-40px] ">
       {/* Section Title */}
       <motion.div
         initial={{ opacity: 0, y: -50 }}
@@ -13,10 +13,11 @@ const Kotak = () => {
         className="text-center mb-8"
       >
         <h2 className="text-2xl md:text-4xl font-bold text-red-700">
-          We Offer Kotak Mahindra <br className="lg:hidden"/> Bank Credit Cards
+          We Offer Kotak Mahindra <br className="lg:hidden" /> Bank Credit Cards
         </h2>
         <p className="text-gray-600 sm:text-xl mt-2">
-          Discover exclusive benefits and rewards <br className="sm:hidden"/> tailored for you.
+          Discover exclusive benefits and rewards <br className="sm:hidden" />{" "}
+          tailored for you.
         </p>
       </motion.div>
 
@@ -44,11 +45,11 @@ const Kotak = () => {
         className="text-center mt-8"
       >
         <a
-          href="/src/pages/KotakCreditCard"
+          href="/KotakCreditCard"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-red-700 text-white sm:px-8 sm:py-3 px-2 py-1 rounded-lg shadow-lg text-lg font-semibold transition duration-300 transform hover:scale-105 hover:bg-[#168a9a]">
+          <button className="bg-gradient-to-r from-red-600 to-red-800 text-white sm:px-8 sm:py-3 px-2 py-1 rounded-lg shadow-lg text-lg font-semibold">
             Learn More
           </button>
         </a>

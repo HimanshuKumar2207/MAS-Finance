@@ -35,7 +35,7 @@ const sections = [
 const HAbout = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row  lg:py-24 mt-[150px] lg:mt-16 bg-gradient-to-r from-gray-100 to-gray-200 font-montserrat">
+      <div className="flex flex-col lg:flex-row  lg:py-24 mt-[150px] lg:mt-0 bg- font-montserrat">
         {/* Left Section with Title */}
         <div className="w-full lg:w-1/3 relative lg:h-[875px]">
           {/* Background image container */}

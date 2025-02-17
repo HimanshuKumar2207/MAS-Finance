@@ -42,7 +42,7 @@ const OthServices = [
 
 const MoreServices = () => {
   return (
-    <div className="mt-20 p-6 sm:p-8 md:p-12 lg:p-16 bg-gray-50 font-montserrat mb-10">
+    <div className="mt-20 lg:mt-0 p-6 sm:p-8 md:p-12 lg:px-16 lg:py-[120px] bg-gray-100 font-montserrat mb-10 lg:mb-0">
       {/* Heading Section */}
       <div className="mb-12 text-center">
         <motion.h3

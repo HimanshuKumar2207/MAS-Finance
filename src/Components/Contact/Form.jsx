@@ -58,7 +58,7 @@ const Form = () => {
   };
 
   return (
-    <div className="w-full mx-auto lg:mt-24 mt-24 py-8 bg-gradient-to-r from-gray-100 to-gray-200">
+    <div className="w-full mx-auto lg:mt-24 mt-24 py-14 bg-gradient-to-r from-gray-100 to-gray-200 overflow-hidden">
       {/* Heading */}
       <motion.h3
         initial={{ opacity: 0, y: -50 }}
