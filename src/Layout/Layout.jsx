@@ -10,13 +10,14 @@ import PrivacyPolicy from "../Components/Global/PrivacyPolicy";
 import TermsAndCondition from "../Components/Global/TermsAndCondition";
 import stock from "../assets/stock.jpg";
 import Loan from "../assets/loanBanner.jpg";
+import KotakCreditCard from "../pages/KotakCreditCard";
 
 const servicesArr = [
   {
     id: "health-insurance",
     serviceName: "Health Insurance",
     overview:
-      "Comprehensive health coverage plans for individuals and families with flexible options, ensuring you receive the best care when you need it most.",
+      "In an unpredictable world, protecting yourself and your loved ones with the right insurance is essential. We provide a wide range of health and life insurance plans, tailored to your specific needs and budget. Whether you're looking for comprehensive health coverage or securing your family’s future, our team will help you select the best options that provide financial protection when you need it most.",
     keyFeatures: [
       "Coverage for hospitalization expenses",
       "Pre & post hospitalization coverage",
@@ -53,12 +54,21 @@ const servicesArr = [
       email: "health@yourfintech.com",
       phone: "1800-HEALTH-INS",
     },
+    More: {
+      text: "Calculate SIP",
+      link: "https://www.etmoney.com/tools-and-calculators/sip-calculator",
+    },
+
+    Apply: {
+      text: "Know more about Mutual fund",
+      link: "https://www.simplifin.ai/CustomerRegister?dcode=943086",
+    },
   },
   {
     id: "personal-loans",
     serviceName: "Personal Loans",
     overview:
-      "Instant personal loans with easy approval, no collateral required, and competitive interest rates. Get the funds you need to meet your personal financial goals.",
+      "Whether you need funds for a home renovation, education, or an emergency, our personalized loan options help you achieve your financial goals without the stress. We offer flexible loan terms and competitive rates to make borrowing easier. Our team works with you to ensure you get the right loan, with manageable repayment options, to give you peace of mind and financial stability.",
     keyFeatures: [
       "Loan amount ranging from ₹50,000 to ₹25 lakh",
       "Flexible loan tenure: 12 to 60 months",
@@ -93,13 +103,21 @@ const servicesArr = [
       email: "loans@yourfintech.com",
       phone: "1800-PERSONAL",
     },
-    img: Loan,
+    More: {
+      text: "Calculate SIP",
+      link: "https://www.etmoney.com/tools-and-calculators/sip-calculator",
+    },
+
+    Apply: {
+      text: "Know more about Mutual fund",
+      link: "https://www.simplifin.ai/CustomerRegister?dcode=943086",
+    },
   },
   {
     id: "automobile-insurance",
     serviceName: "Automobile Insurance",
     overview:
-      "Comprehensive automobile insurance to protect your vehicle from accidents, natural disasters, and theft, with the added benefit of cashless repairs.",
+      "Auto insurance is essential to protect your vehicle, and more importantly, yourself and others on the road. Our automobile insurance services offer a variety of coverage options, including collision, comprehensive, and liability, ensuring you're protected against accidents, theft, and unforeseen events. We work with you to select a policy that suits your driving habits and provides the best coverage for your needs at a competitive rate",
     keyFeatures: [
       "Third-party liability coverage for legal protection",
       "Own damage protection for repairs and accidents",
@@ -135,12 +153,22 @@ const servicesArr = [
       email: "auto@yourfintech.com",
       phone: "1800-AUTO-INS",
     },
+
+    More: {
+      text: "",
+      link: "",
+    },
+
+    Apply: {
+      text: "",
+      link: "",
+    },
   },
   {
     id: "mutual-funds",
     serviceName: "Mutual Funds",
     overview:
-      "Expertly curated mutual fund investment options designed to help individuals grow wealth and achieve their long-term financial goals.",
+      "Investing in mutual funds offers a smart way to build wealth over time with the help of professional management. Our mutual fund services are designed to diversify your investments across various asset classes, reducing risk while maximizing returns. We assess your financial goals and risk tolerance to create a customized investment portfolio that ensures you're on track for a stable and prosperous future.",
     keyFeatures: [
       "Wide range of fund categories: Equity, Debt, Hybrid, etc.",
       "SIP options starting from ₹500/month",
@@ -174,12 +202,23 @@ const servicesArr = [
       email: "invest@yourfintech.com",
       phone: "1800-MUTUAL-FD",
     },
+
+    More: {
+      text: "Calculate SIP",
+      link: "https://www.etmoney.com/tools-and-calculators/sip-calculator",
+    },
+
+    Apply: {
+      text: "Know more about Mutual fund",
+      link: "https://www.simplifin.ai/CustomerRegister?dcode=943086",
+    },
   },
+
   {
     id: "stock-investment",
     serviceName: "Stock Investment",
     overview:
-      "Start investing in the stock market with zero brokerage charges on equity delivery and advanced tools for real-time market analysis.",
+      "Investing in stocks can be a great way to build wealth, but it requires a solid strategy. Our share investment services are designed to help you make informed decisions, whether you're a seasoned investor or just getting started. We help you understand market trends, select high-potential stocks, and diversify your portfolio to maximize returns while minimizing risks. Let us assist you in navigating the stock market with confidence and precision.",
     keyFeatures: [
       "Zero brokerage charges on equity delivery",
       "Access to real-time market data and stock charts",
@@ -212,7 +251,16 @@ const servicesArr = [
       email: "stocks@yourfintech.com",
       phone: "1800-STOCK-IN",
     },
-    img: stock,
+
+    More: {
+      text: "Know your Investments",
+      link: "https://diy.sharekhan.com/app/AccountApplication/StepReview/2237349",
+    },
+
+    Apply: {
+      text: "Apply for Stock Investment",
+      link: "https://diy.sharekhan.com/app/AccountApplication/StepReview/2237349",
+    },
   },
 ];
 
@@ -248,6 +296,8 @@ const Layout = () => {
           path="/services/stockinvestment"
           element={<ServicesList serData={servicesArr[4]} />}
         />
+
+        <Route path="/kotakcreditcard" element={<KotakCreditCard />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>

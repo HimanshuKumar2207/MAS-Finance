@@ -11,11 +11,8 @@ const PrivacyPolicy = () => {
     <>
       <Navbar />
       <HBanner
-        heading="Investing in the Future"
-        desc="MAS Financial offers personalized financial planning, investment
-            strategies, and expert guidance to help you secure a brighter
-            future. We assist with loans, insurance, and mutual fund
-            investments."
+        heading="Review our privacy, and policy"
+        desc="By using MAS Financial services, you accept our terms, privacy policies, and agree to comply with all relevant laws and regulations, ensuring responsible usage and adherence to our service agreements."
         img={img}
       />
       <div className="w-full text-black py-16 px-4 lg:mt-16">

@@ -10,6 +10,8 @@ import FixedBottom from "../Components/Global/FixedBottom";
 import FAQ from "../Components/Home/FAQ";
 import img from "../assets/HBanner.jpg";
 import MoreServices from "../Components/Services/MoreServices";
+import Kotak from "../Components/Home/Kotak";
+import ServiceBtn from "../Components/Services/ServiceBtn";
 const Home = () => {
   return (
     <>
@@ -26,7 +28,9 @@ const Home = () => {
       <WeOffer />
       <WhyUs />
       <MoreServices />
-      <Form />
+      <Kotak />
+      <ServiceBtn />
+      {/* <Form /> */}
       <FAQ />
       <Footer />
       <FixedBottom />

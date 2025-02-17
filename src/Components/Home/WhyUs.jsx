@@ -22,7 +22,7 @@ const sections = [
 
 const WhyUs = () => {
   return (
-    <div className=" lg:mt-16 mt-20 bg-gradient-to-r from-gray-100 to-gray-200 font-montserrat ">
+    <div className="mt-24 bg-gradient-to-r from-gray-100 to-gray-200 font-montserrat ">
       {/* Left Section with Background Image */}
       <div className="flex flex-col lg:flex-row">
         {/* Left Section */}

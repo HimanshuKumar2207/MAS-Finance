@@ -35,7 +35,7 @@ const sections = [
 const HAbout = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row  lg:py-24 mt-[130px] lg:mt-24 bg-gradient-to-r from-gray-100 to-gray-200 font-montserrat">
+      <div className="flex flex-col lg:flex-row  lg:py-24 mt-[150px] lg:mt-16 bg-gradient-to-r from-gray-100 to-gray-200 font-montserrat">
         {/* Left Section with Title */}
         <div className="w-full lg:w-1/3 relative lg:h-[875px]">
           {/* Background image container */}
@@ -54,7 +54,7 @@ const HAbout = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="absolute top-0 left-0 w-full h-full flex items-center justify-center z-10"
           >
-            <h1 className="lg:text-white mb-[150px] decoration-red-700 underline underline-offset-8 font-bold text-4xl lg:text-7xl lg:mb-10 text-center transform hover:scale-105 transition-transform duration-300">
+            <h1 className="lg:text-white mb-24 decoration-red-700 underline underline-offset-8 font-bold text-4xl lg:text-7xl lg:mb-10 text-center transform hover:scale-105 transition-transform duration-300">
               About Us
             </h1>
           </motion.div>

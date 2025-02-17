@@ -11,11 +11,8 @@ const TermsAndConditions = () => {
     <>
       <Navbar />
       <HBanner
-        heading=" Investing in the Future"
-        desc=" MAS Financial offers personalized financial planning, investment
-            strategies, and expert guidance to help you secure a brighter
-            future. We assist with loans, insurance, and mutual fund
-            investments."
+        heading=" Agree to terms and conditions."
+        desc="By accessing MAS Financial services, you agree to adhere to our terms and conditions, privacy policies, and all applicable laws governing the use of our services, ensuring responsible and legal usage."
         img={img}
       />
       <div className="container mx-auto px-4 py-8 lg:mt-16 mt-20">
@@ -24,7 +21,7 @@ const TermsAndConditions = () => {
         </h1>
         <div className="bg-white shadow-md rounded-lg p-6">
           <p className="text-gray-700 mb-4">
-            Welcome to <span className="font-semibold">MAS Financila</span>. By
+            Welcome to <span className="font-semibold">MAS Financial</span>. By
             accessing or using our services, you agree to comply with and be
             bound by the following terms and conditions. Please read them
             carefully, as they govern your use of our website, applications, and

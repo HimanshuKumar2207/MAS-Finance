@@ -1,7 +1,7 @@
 import React from "react";
 import { IoArrowRedoCircleSharp } from "react-icons/io5";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom"; // Importing Link from react-router-dom for internal navigation
+import { Link } from "react-router-dom"; // 
 
 const services = [
   {
@@ -16,7 +16,7 @@ const services = [
     title: "Health & Life Insurance",
     description:
       "In an unpredictable world, protecting yourself and your loved ones with the right insurance is essential. We provide a wide range of health and life insurance plans, tailored to your specific needs and budget. Whether you're looking for comprehensive health coverage or securing your family’s future, our team will help you select the best options that provide financial protection when you need it most.",
-    link: "/services/healthinsurance", // Link to service details
+    link: "/services/healthinsurance",
 
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
@@ -24,7 +24,7 @@ const services = [
     title: "Mutual Funds",
     description:
       "Investing in mutual funds offers a smart way to build wealth over time with the help of professional management. Our mutual fund services are designed to diversify your investments across various asset classes, reducing risk while maximizing returns. We assess your financial goals and risk tolerance to create a customized investment portfolio that ensures you're on track for a stable and prosperous future.",
-    link: "/services/mutualfunds", // Link to service details
+    link: "/services/mutualfunds", 
 
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
@@ -32,7 +32,7 @@ const services = [
     title: "Auto-mobile Insurance",
     description:
       "Auto insurance is essential to protect your vehicle, and more importantly, yourself and others on the road. Our automobile insurance services offer a variety of coverage options, including collision, comprehensive, and liability, ensuring you're protected against accidents, theft, and unforeseen events. We work with you to select a policy that suits your driving habits and provides the best coverage for your needs at a competitive rate",
-    link: "/services/automobileinsurance", // Link to service details
+    link: "/services/automobileinsurance", 
 
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
@@ -40,7 +40,7 @@ const services = [
     title: "Share Investments",
     description:
       "Investing in stocks can be a great way to build wealth, but it requires a solid strategy. Our share investment services are designed to help you make informed decisions, whether you're a seasoned investor or just getting started. We help you understand market trends, select high-potential stocks, and diversify your portfolio to maximize returns while minimizing risks. Let us assist you in navigating the stock market with confidence and precision.",
-    link: "/services/stockinvestment", // Link to service details
+    link: "/services/stockinvestment",
 
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
@@ -93,10 +93,10 @@ const WeOffer = () => {
             {/* Learn More Button */}
             <Link
               to={service.link}
-              className="flex items-center text-white font-semibold "
+              className="flex items-center text-white font-semibold  lg:text-lg text-md "
             >
               Learn More
-              <IoArrowRedoCircleSharp className="ml-2 text-2xl" />
+              <IoArrowRedoCircleSharp className="ml-2 lg:text-3xl text-2xl" />
             </Link>
           </motion.div>
         ))}

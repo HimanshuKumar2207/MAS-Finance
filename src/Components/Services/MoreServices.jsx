@@ -5,37 +5,37 @@ const OthServices = [
   {
     title: "Financial Advisory",
     description:
-      "Making the right financial decisions can be challenging. Our expert financial advisors provide personalized guidance, helping you navigate complex financial choices. Whether it's budgeting, debt management, or long-term wealth planning, we ensure you're on the path to financial success and security.",
+      "Making the right financial decisions can often feel overwhelming, but with the right guidance, it becomes more manageable. Our team of expert financial advisors offers personalized advice tailored to your unique needs and goals. We specialize in helping you make informed choices regarding budgeting, debt management, investment strategies, and long-term wealth planning. Whether you're saving for retirement, managing daily expenses, or looking to grow your wealth, we provide clear and actionable strategies to ensure your financial success. ",
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
   {
     title: "Investment Planning",
     description:
-      "Investing wisely is key to growing your wealth over time. Our investment planning services help you choose the right mix of assets, tailored to your goals and risk tolerance. From stocks to mutual funds and bonds, we guide you to build a diversified portfolio that works for you.",
+      "Investing wisely is crucial for growing your wealth. Our investment planning services help you select the right mix of assets that align with your financial goals and risk tolerance. Whether you're interested in stocks, mutual funds, or bonds, we provide expert guidance to help you build a diversified portfolio. By considering your unique needs, time horizon, and risk preferences, we ensure that your investments work for you, paving the way for long-term financial growth and security.",
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
   {
     title: "Insurance Advisory",
     description:
-      "Life is unpredictable, and the right insurance coverage can provide peace of mind. We help you select the best insurance plans, whether it’s health, life, or property, ensuring you and your loved ones are financially protected against unexpected events.",
+      "Life is unpredictable, and having the right insurance coverage offers peace of mind. We assist you in selecting the best insurance plans, whether for health, life, or property, to ensure that you and your loved ones are financially protected against unforeseen events. Our expert advisors assess your needs and guide you in choosing coverage that provides adequate protection. With our help, you can rest assured knowing that you're prepared for any unexpected challenges that may come your way.",
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
   {
     title: "Retirement Planning",
     description:
-      "Your future starts today. Retirement planning is essential for achieving financial independence in your later years. We help you define your retirement goals, create a sustainable savings strategy, and select tax-efficient investment options. Our tailored approach ensures you can retire comfortably and confidently.",
+      "Your future begins now, and retirement planning is a crucial step toward achieving financial independence. We guide you in defining your retirement goals, creating a sustainable savings strategy, and selecting tax-efficient investment options. By understanding your unique needs, we provide a personalized plan that ensures you're on track to retire comfortably. Our expert approach gives you peace of mind, knowing that you’ll be financially secure in your later years, enabling you to enjoy a worry-free and confident retirement.",
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
   {
     title: "Tax Planning",
     description:
-      "Tax planning is crucial for maximizing your financial resources. Our team helps you navigate complex tax laws to reduce your tax liability while ensuring compliance. We work with you to create strategies that minimize taxes on income, investments, and assets, helping you keep more of your hard-earned money.",
+      "Tax planning is essential for optimizing your financial resources and minimizing tax burdens. Our team of experts helps you navigate the complexities of tax laws to reduce your tax liability while ensuring full compliance. We work closely with you to develop strategies that minimize taxes on income, investments, and assets. By creating a tailored tax plan, we help you keep more of your hard-earned money, allowing you to allocate funds toward your financial goals and secure a more prosperous future.",
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
   {
     title: "Estate Planning",
     description:
-      "Planning for the future of your estate ensures your assets are distributed according to your wishes, minimizing potential tax burdens for your heirs. We help you create wills, trusts, and other essential documents that protect your legacy, providing peace of mind that your family will be cared for after you're gone.",
+      "Estate planning is vital for securing the future of your assets and ensuring they are distributed according to your wishes. By proactively planning, you can minimize potential tax burdens and protect your heirs from unnecessary financial strain. Our experts assist in creating wills, trusts, and other essential documents, providing a solid foundation for protecting your legacy. We guide you through the process to ensure your family is taken care of, offering peace of mind that your hard-earned wealth will be passed on smoothly after you're gone.",
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
 ];
@@ -76,7 +76,7 @@ const MoreServices = () => {
             <h2 className="text-2xl sm:text-3xl font-bold mb-4">
               {service.title}
             </h2>
-            <p className="text-sm sm:text-md leading-relaxed">
+            <p className="text-md sm:text-md leading-relaxed">
               {service.description}
             </p>
           </motion.div>

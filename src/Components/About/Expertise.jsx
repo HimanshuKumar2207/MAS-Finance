@@ -5,25 +5,25 @@ const sections = [
   {
     title: "Risk Management & Financial Safety",
     description:
-      "We offer tools and resources to assess and manage your financial risks effectively. Use our risk profiling and tax planning calculators to secure your future with peace of mind.",
+      "We offer comprehensive tools and resources designed to assess and manage your financial risks effectively. Utilize our risk profiling and tax planning calculators to make informed choices for a secure, worry-free future.",
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
   {
     title: "Live Chat & 24/7 Support",
     description:
-      "Get expert advice anytime via our live chat support. Our experienced financial advisors are available 24/7 to assist with any questions or concerns you may have",
+      "Connect with expert financial advisors anytime through our live chat support. Available 24/7, we provide prompt assistance to address your questions or concerns, ensuring you receive the best guidance whenever you need it.",
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
   {
     title: "Sustainability Focus",
     description:
-      "Invest responsibly with our ESG (Environmental, Social, Governance) investment options. We provide sustainable financial products that contribute to environmental and social good.",
+      "Invest with purpose through our ESG (Environmental, Social, Governance) investment options. We offer sustainable financial products that not only help grow your wealth but also contribute to positive environmental and social impact.",
     bgColor: "bg-gradient-to-r from-[#1a9cae] to-teal-800",
   },
   {
     title: "Personal Doubt Session",
     description:
-      "Have questions about your investments, insurance, or loans? Schedule a one-on-one session with one of our financial experts to get personalized guidance",
+      "Have questions about your investments, insurance, or loans? Schedule a one-on-one session with our financial experts for personalized guidance and tailored solutions to help you make informed decisions.",
     bgColor: "bg-gradient-to-r from-red-600 to-red-800",
   },
 ];
@@ -68,7 +68,7 @@ const Expertise = () => {
             <h2 className="text-2xl sm:text-3xl font-bold mb-4">
               {service.title}
             </h2>
-            <p className="text-sm sm:text-md leading-relaxed">
+            <p className="text-smd sm:text-md leading-relaxed">
               {service.description}
             </p>
           </motion.div>
