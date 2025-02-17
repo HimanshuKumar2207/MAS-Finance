@@ -8,8 +8,6 @@ import ErrorPage from "../pages/ErrorPage";
 import ServicesList from "../pages/ServiceList";
 import PrivacyPolicy from "../Components/Global/PrivacyPolicy";
 import TermsAndCondition from "../Components/Global/TermsAndCondition";
-import stock from "../assets/stock.jpg";
-import Loan from "../assets/loanBanner.jpg";
 import KotakCreditCard from "../pages/KotakCreditCard";
 
 const servicesArr = [

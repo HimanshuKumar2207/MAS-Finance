@@ -28,13 +28,11 @@ const Kotak = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
         className="flex justify-center mt-10"
       >
-        <a href="/KotakCreditCard" target="_blank" rel="noopener noreferrer">
-          <img
-            src={kotakCardImage}
-            alt="Kotak Credit Card"
-            className="rounded-lg shadow-lg lg:max-w-5xl max-w-[90vw] hover:shadow-xl transition-shadow duration-300"
-          />
-        </a>
+        <img
+          src={kotakCardImage}
+          alt="Kotak Credit Card"
+          className="rounded-lg shadow-lg lg:max-w-5xl max-w-[90vw] hover:shadow-xl transition-shadow duration-300"
+        />
       </motion.div>
 
       {/* Call to Action */}
@@ -44,13 +42,9 @@ const Kotak = () => {
         transition={{ duration: 0.8, delay: 0.4 }}
         className="text-center mt-8"
       >
-        <a
-          href="/KotakCreditCard"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/kotakcreditcard" target="_blank" rel="noopener noreferrer">
           <button className="bg-gradient-to-r from-red-600 to-red-800 text-white sm:px-8 sm:py-3 px-2 py-1 rounded-lg shadow-lg text-lg font-semibold">
-            Learn More
+            Get Card
           </button>
         </a>
       </motion.div>
